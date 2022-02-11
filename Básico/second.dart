@@ -7,6 +7,7 @@ void main(List<String> args) {
   if (args.isEmpty) {
     print(
         'Preencha ao menos um valor númerico valido como argumento. Ex: dart second.dart 5 10 20');
+    return;
   }
 
   for (var i = 0; i < args.length; i++) {
