@@ -30,7 +30,7 @@ void main(List<String> args) {
   print('\nObjeto é: $i');
   const list = [i as int]; // Usando um typecast.
   print('A lista é: $list');
-  const map = {if (i is int) i: 'int'}; // Usando is ae coleção if.
+  const map = {if (i is int) i: 'int'}; // Usando is e a coleção if.
   print('O map é: $map');
   const set = {if (list is List<int>) ...list};
   print('O set é: $set');
